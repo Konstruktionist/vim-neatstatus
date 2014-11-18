@@ -18,7 +18,7 @@ These changes were made for my situation:
 
 Together with the following lines
 
-```
+```vim
 " =======================================================================
 "	NeatStatusLine
 " =======================================================================
