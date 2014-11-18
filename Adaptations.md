@@ -7,4 +7,4 @@ These changes were made for my circumstances:
 * Terminal set as xterm-256 colour
 * Terminal theme: base16-ocean-dark.256
 
-![][./Schermafbeelding]
+![][http://imgur.com/JjfExey]
