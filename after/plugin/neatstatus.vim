@@ -139,7 +139,7 @@ if has('statusline')
         " mode (changes color)
         let &stl.="%1*\ %{Mode()} %0*"
         " session name
-        let &stl.="%5* %{g:neatstatus_session} %0*"
+"        let &stl.="%5* %{g:neatstatus_session} %0*"
         " file path
         let &stl.=" %<%F "
         " read only, modified, modifiable flags in brackets
@@ -158,9 +158,9 @@ if has('statusline')
         " file encoding (eg. utf8, latin1, etc..)
         let &stl.="%(%{(&fenc!=''?&fenc:&enc)} ".g:NeatStatusLine_separator." %)"
         " buffer number
-        let &stl.="BUF #%n "
+        let &stl.="BUF #%n ".g:NeatStatusLine_separator." "
         "line number (pink) / total lines
-        let &stl.="%5*  LN %7*%-4.l%5*/%-4.L\ %0* "
+        let &stl.="%0*  LN %11*%-4.l%0*/%-4.L\ %0* ".g:NeatStatusLine_separator." "
         " percentage done
         let &stl.="(%-3.p%%) ".g:NeatStatusLine_separator." "
         " column number (minimum width is 4)
