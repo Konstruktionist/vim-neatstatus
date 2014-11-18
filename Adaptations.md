@@ -14,6 +14,7 @@ These changes were made for my situation:
 2. Added a separator to the buffer section `BUF #`
 3. Added a separator to the linenumber/total linenumbers section `LN # / #`
 4. Changed the coloration of the linenumber/total linenumbers section
+5. Changed the separator symbol from pipe ‘|’ to ‘⎜’ which is Unicode character _(hex)_`239C` a.k.a “LEFT PARENTHESIS EXTENSION”.
 
 Together with the following lines
 
