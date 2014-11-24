@@ -19,6 +19,13 @@ These changes were made for my situation:
 Together with the following lines
 
 ```vim
+colorscheme base16-ocean
+set background=dark
+highlight clear CursorLine
+highlight LineNr ctermbg=0 ctermfg=15
+highlight CursorLineNr ctermbg=8 ctermfg=0
+highlight StatusLine ctermbg=8 ctermfg=15
+
 " =======================================================================
 "	NeatStatusLine
 " =======================================================================
@@ -34,4 +41,4 @@ in my `.vimrc` file resulted in this statusline
 
 ![Nice statusline][1]
 
-[1]: http://imgur.com/900iWZy.png "Nice statusline"
+[1]: http://imgur.com/eIXUuCm.png "Nice statusline"
