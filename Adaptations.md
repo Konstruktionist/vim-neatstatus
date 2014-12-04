@@ -5,7 +5,7 @@ These changes were made for my situation:
 * Mac OS X 10.10
 * Apple's Terminal 
 * Terminal set as xterm-256 colour
-* Terminal theme: base16-ocean-dark.256
+* Terminal theme: base16-ocean-dark.256 from [Chris Kempson][2]
 
 ### What's changed
 
@@ -42,3 +42,4 @@ in my `.vimrc` file resulted in this statusline
 ![Nice statusline][1]
 
 [1]: http://imgur.com/eIXUuCm.png "Nice statusline"
+[2]: https://github.com/chriskempson/base16-builder
