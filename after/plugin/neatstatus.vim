@@ -160,7 +160,7 @@ if has('statusline')
         " buffer number
         let &stl.="BUF #%n ".g:NeatStatusLine_separator." "
         "line number (pink) / total lines
-        let &stl.="%0*  LN %11*%-4.l%0*/%-4.L\ %0* ".g:NeatStatusLine_separator." "
+        let &stl.="%5*␤ %7*%-1.l%5*/%-1.L%0* ".g:NeatStatusLine_separator." "
         " percentage done
         let &stl.="(%-3.p%%) ".g:NeatStatusLine_separator." "
         " column number (minimum width is 4)
