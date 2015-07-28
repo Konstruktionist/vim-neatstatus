@@ -3,7 +3,7 @@
 These changes were made for my situation:
 
 * Mac OS X 10.10
-* Apple's Terminal 
+* Apple's Terminal
 * Terminal set as xterm-256 colour
 * Terminal theme: base16-ocean-dark.256 from [Chris Kempson][2]
 
@@ -28,9 +28,9 @@ highlight CursorLineNr ctermbg=0 ctermfg=11 guifg=#dfdf87 guibg=#353d46
 highlight StatusLine ctermbg=8 ctermfg=15
 highlight Visual ctermbg=8 ctermfg=0 guifg=#000000 guibg=#808080
 
-" 
+"
 "	NeatStatusLine
-" 
+"
 
 let g:NeatStatusLine_separator = '⎜'
 let g:NeatStatusLine_color_position = 'guifg=#ffffff guibg=#505B66 ctermfg=15 ctermbg=8'
@@ -38,7 +38,7 @@ let g:NeatStatusLine_color_line     = 'guifg=#ffff00 guibg=#505B66 gui=bold cter
 let g:NeatStatusLine_color_filetype = 'guifg=#ffffff guibg=#ff0000 gui=bold ctermfg=237 ctermbg=7 cterm=NONE'
 ```
 
-in my `.vimrc` file resulted in this statusline 
+in my `.vimrc` file resulted in this statusline
 
 ![Nice statusline][1]
 
